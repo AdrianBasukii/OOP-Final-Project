@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/ANB/Desktop/My2DGame/src</OriginalElement>
+  <nodes>
+    <node x="1590.6211313023036" y="1815.3403246103408">tile.Tile</node>
+    <node x="1084.7646268769786" y="1392.2153029685844">object.Block_Box</node>
+    <node x="1053.9993986271297" y="1613.4061255096708">object.Decor_Candle</node>
+    <node x="1684.2003230395792" y="672.5186633573452">main.EntitySpawner</node>
+    <node x="777.6487654273004" y="1367.0896042003276">mobs.MOB_Spider</node>
+    <node x="-272.59813556426263" y="1016.164041815191">object.Projectile_SpiderWeb</node>
+    <node x="-321.26576322094616" y="1944.2891766023404">main.KeyHandler</node>
+    <node x="547.8644139123985" y="-130.1180032847816">entity.Entity</node>
+    <node x="-7.997778478866394" y="1972.0960128990598">tile.TileManager</node>
+    <node x="-418.6714940548286" y="1300.1605660428845">main.Sound</node>
+    <node x="775.179492943348" y="1617.965432734092">object.Item_Key</node>
+    <node x="571.7897767575531" y="1958.1189893728638">pathfinding.Pathfinder</node>
+    <node x="451.63623593994873" y="1306.701634585942">entity.Player</node>
+    <node x="-186.04517784026052" y="1191.2681374755543">main.UI</node>
+    <node x="335.3369923765182" y="2469.297520989849">main.Collision</node>
+    <node x="1422.7319030536155" y="1240.9691229775099">main.RoomLayouts</node>
+    <node x="419.864451699612" y="1794.4180592704038">object.Block_Door</node>
+    <node x="1132.848939824751" y="1816.1605738069393">main.UtilityTool</node>
+    <node x="63.72579079543755" y="1017.1640418151909">entity.Projectile</node>
+    <node x="1133.2728781294875" y="1966.1892419788542">main.GamePanel</node>
+    <node x="340.49673540819697" y="2100.0188312791406">pathfinding.Node</node>
+    <node x="1454.6211313023036" y="2018.9150221042075">javax.swing.JPanel</node>
+    <node x="1845.9693844751198" y="2139.9150221042073">main.Main</node>
+    <node x="175.38097404074793" y="1609.8147302681807">object.UI_Heart</node>
+    <node x="151.41200735845692" y="1768.2378606635164">object.Block_Chest</node>
+    <node x="160.3416283915839" y="1246.0011281959478">mobs.MOB_KeySpider</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mobs.MOB_KeySpider" target="entity.Entity" relationship="GENERALIZATION">
+      <point x="115.50037160841609" y="-1.2819594769553078E-4" />
+      <point x="422.0" y="1339.5010000000002" />
+      <point x="422.0" y="575.3823207547169" />
+      <point x="-156.00041391239847" y="3.2403949856529835E-4" />
+    </edge>
+    <edge source="main.EntitySpawner" target="main.RoomLayouts" relationship="REALIZATION">
+      <point x="-151.0" y="278.4504596201648" />
+      <point x="83.0" y="0.0" />
+    </edge>
+    <edge source="object.Block_Chest" target="entity.Entity" relationship="GENERALIZATION">
+      <point x="-7.358456912243128E-6" y="-44.4998606635163" />
+      <point x="255.412" y="1751.0" />
+      <point x="422.0" y="1751.0" />
+      <point x="422.0" y="575.3823207547169" />
+      <point x="-156.00041391239847" y="3.2403949856529835E-4" />
+    </edge>
+    <edge source="object.UI_Heart" target="entity.Entity" relationship="GENERALIZATION">
+      <point x="93.00002595925204" y="2.6973181934408785E-4" />
+      <point x="422.0" y="1641.315" />
+      <point x="422.0" y="575.3823207547169" />
+      <point x="-156.00041391239847" y="3.2403949856529835E-4" />
+    </edge>
+    <edge source="object.Projectile_SpiderWeb" target="entity.Projectile" relationship="GENERALIZATION">
+      <point x="-132.0" y="0.0" />
+      <point x="-307.6663610636578" y="1073.664041815191" />
+      <point x="-307.6663610636578" y="1073.664041815191" />
+      <point x="-125.5" y="0.0" />
+    </edge>
+    <edge source="main.GamePanel" target="javax.swing.JPanel" relationship="GENERALIZATION">
+      <point x="123.5" y="0.0" />
+      <point x="1628.7581303948218" y="2479.689241978854" />
+      <point x="15.636999092518181" y="165.5" />
+    </edge>
+    <edge source="entity.Projectile" target="entity.Entity" relationship="GENERALIZATION">
+      <point x="125.49983184607193" y="-4.181519091162045E-5" />
+      <point x="422.0" y="1073.6640000000002" />
+      <point x="422.0" y="575.3823207547169" />
+      <point x="-156.00041391239847" y="3.2403949856529835E-4" />
+    </edge>
+    <edge source="object.Block_Door" target="entity.Entity" relationship="GENERALIZATION">
+      <point x="-4.516996119718897E-4" y="-44.50005927040388" />
+      <point x="571.864" y="1751.0" />
+      <point x="422.0" y="1751.0" />
+      <point x="422.0" y="575.3823207547169" />
+      <point x="-156.00041391239847" y="3.2403949856529835E-4" />
+    </edge>
+    <edge source="mobs.MOB_Spider" target="entity.Entity" relationship="GENERALIZATION">
+      <point x="2.3457269958271354E-4" y="93.50039579967233" />
+      <point x="883.649" y="1584.0" />
+      <point x="1013.0" y="1584.0" />
+      <point x="1013.0" y="1751.0" />
+      <point x="422.0" y="1751.0" />
+      <point x="422.0" y="575.3823207547169" />
+      <point x="-156.00041391239847" y="3.2403949856529835E-4" />
+    </edge>
+    <edge source="entity.Player" target="entity.Entity" relationship="GENERALIZATION">
+      <point x="-2.359399487659175E-4" y="213.50036541405802" />
+      <point x="576.636" y="1751.0" />
+      <point x="422.0" y="1751.0" />
+      <point x="422.0" y="575.3823207547169" />
+      <point x="-156.00041391239847" y="3.2403949856529835E-4" />
+    </edge>
+    <edge source="object.Item_Key" target="entity.Entity" relationship="GENERALIZATION">
+      <point x="-4.929433480356238E-4" y="-44.5004327340921" />
+      <point x="869.179" y="1584.0" />
+      <point x="1013.0" y="1584.0" />
+      <point x="1013.0" y="1751.0" />
+      <point x="422.0" y="1751.0" />
+      <point x="422.0" y="575.3823207547169" />
+      <point x="-156.00041391239847" y="3.2403949856529835E-4" />
+    </edge>
+    <edge source="object.Decor_Candle" target="entity.Entity" relationship="GENERALIZATION">
+      <point x="-3.9862712969807035E-4" y="-44.50012550967085" />
+      <point x="1162.999" y="1584.0" />
+      <point x="1013.0" y="1584.0" />
+      <point x="1013.0" y="1751.0" />
+      <point x="422.0" y="1751.0" />
+      <point x="422.0" y="575.3823207547169" />
+      <point x="-156.00041391239847" y="3.2403949856529835E-4" />
+    </edge>
+    <edge source="object.Block_Box" target="entity.Entity" relationship="GENERALIZATION">
+      <point x="3.7312302151804033E-4" y="44.49969703141551" />
+      <point x="1181.765" y="1584.0" />
+      <point x="1013.0" y="1584.0" />
+      <point x="1013.0" y="1751.0" />
+      <point x="422.0" y="1751.0" />
+      <point x="422.0" y="575.3823207547169" />
+      <point x="-156.00041391239847" y="3.2403949856529835E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.5535594919786097" showDependencies="false" x="1780.2849811320755" y="1998.824" />
+  <SelectedNodes>
+    <node>javax.swing.JPanel</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
