@@ -1,9 +1,9 @@
 # OOP-Final-Project
 
-<h1>What is the game about?</h1> <br>
+## What is the game about? <br>
 A game inspired by Soul Knight where the player goes through several rooms with random layouts to find a key that could unlock the treasure room's door.
 
-<h1>Controls</h1> <br>
+## Controls <br>
 
 <h3>Movement</h3>
 W - Up <br>
