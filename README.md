@@ -5,7 +5,7 @@ A game inspired by Soul Knight where the player goes through several rooms with 
 
 <h1>Controls</h1> <br>
 
-<h3>Movement</h3> <br>
+<h3>Movement</h3>
 W - Up <br>
 A - Left <br>
 S - Down <br>
@@ -13,7 +13,7 @@ D - Right <br>
 <br>
 ---------------
 <br>
-<h3>Menu Navigation</h3> <br>
+<h3>Menu Navigation</h3>
 Up Arrow - Move Up <br>
 Down Arrow - Move down <br>
 Enter - Select Option <br>
@@ -21,6 +21,6 @@ Escape - Pause <br>
 <br>
 ---------------
 <br>
-<h3>Debugging</h3> <br>
+<h3>Debugging</h3>
 P - Show Pathfinding Path <br>
 
